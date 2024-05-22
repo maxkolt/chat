@@ -7,7 +7,7 @@ import toast from 'react-hot-toast';
 import { PiUserCircle } from "react-icons/pi";
 import Avatar from '../components/Avatar';
 import { useDispatch } from 'react-redux';
-import { setToken } from '../redux/userSlice';
+import { setToken, setUser } from '../redux/userSlice';
 
 const CheckPasswordPage = () => {
   const [data,setData] = useState({
